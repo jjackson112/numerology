@@ -4,6 +4,9 @@
 require 'sinatra'
 require_relative './numerology_reading'
 
+# added CSS file
+set :public_folder, 'public'
+
 get '/' do 
   erb :form
 end
