@@ -14,6 +14,12 @@ end
 post '/result' do
   birthdate = params[:birthdate]
 
+  # validation handling
+  unless birthdate.match?(/^\d{8}$/)
+    @error = "Please enter a valid 8-digit birthdate (MMDDYYYY)."
+    return erb :form
+  end
+
   reading = NumerologyReading.new(birthdate)
 
   @message = reading.message
