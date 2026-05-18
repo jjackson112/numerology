@@ -18,7 +18,7 @@ post '/result' do
   birthdate = params[:birthdate]
 
   # validation handling
-  unless birthdate.match?(/^\d{8}$/)
+  unless birthdate && birthdate.match?(/^\d{8}$/)
     @error = "Please enter a valid 8-digit birthdate (MMDDYYYY)."
     return erb :form
   end
