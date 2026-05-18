@@ -2,7 +2,18 @@
 # traffic controller or entry point
 
 require 'sinatra'
+require_relative './numerology_reading'
 
 get '/' do 
-  "Sinatra is working"
+  erb :form
+end
+
+post '/result' do
+  birthdate = params[:birthdate]
+
+  reading = NumerologyReading.new(birthdate)
+
+  @message = reading.message
+
+  erb :result
 end
