@@ -2,7 +2,6 @@
 # traffic controller or entry point
 
 require 'sinatra'
-require_relative './main.rb'
 
 get '/' do 
   "Sinatra is working"

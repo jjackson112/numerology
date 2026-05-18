@@ -1,3 +1,4 @@
+# terminal version
 def run
   puts "What's your birthdate? (MMDDYYYY)"
   birthdate = gets.chomp
