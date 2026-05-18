@@ -9,16 +9,16 @@ This project was built as practice for object-oriented programming in Ruby, focu
 - CLI-based input/output
 
 🚀 Features
-Accepts user input in MMDDYYYY format
-Calculates a single-digit numerology number (1–9)
-Reduces multi-digit sums until a single digit is reached
-Returns a personalized numerology message
-Built using object-oriented design principles
+- Accepts user input in MMDDYYYY format
+- Calculates a single-digit numerology number (1–9)
+- Reduces multi-digit sums until a single digit is reached
+- Returns a personalized numerology message
+- Built using object-oriented design principles
 
 🧠 Concepts Practiced
-Classes and objects in Ruby
-Instance variables and encapsulation
-Methods and return values
-Input validation with regex
-Looping and numeric reduction logic
-Separation of concerns (logic vs execution)
+- Classes and objects in Ruby
+- Instance variables and encapsulation
+- Methods and return values
+- Input validation with regex
+- Looping and numeric reduction logic
+- Separation of concerns (logic vs execution)
