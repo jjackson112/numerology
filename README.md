@@ -4,6 +4,10 @@ A simple Ruby application that calculates a numerology “birth path number” f
 
 This project was built as practice for object-oriented programming in Ruby, focusing on classes, instance variables, method design, and clean separation of input/output logic.
 
+🛠️ Tech Stack
+- Ruby (OOP)
+- CLI-based input/output
+
 🚀 Features
 Accepts user input in MMDDYYYY format
 Calculates a single-digit numerology number (1–9)
