@@ -9,6 +9,10 @@
         <div class="container">
             <h1>Numerology App</h1>
 
+            <% if @error %>
+                <p style="color: red;"><%= @error %></p>
+            <% end %>
+
             <form action="/result" method="post">
                 <label>Enter your birthdate (MMDDYYYY):</label><br><br>
 
